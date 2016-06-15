@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box; }
+html {
+  background: url('http://lighttonestudios.co.uk/_themes/lighttonestudios/img/lts-bkg.jpg') no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 body {
   padding: 0;
@@ -7,12 +13,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
-  background: url('http://lighttonestudios.co.uk/_themes/lighttonestudios/img/lts-bkg.jpg') no-repeat center top; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;}
+  color: #606c71; }
 
 a {
   color: #1e6bb8;
@@ -57,24 +58,6 @@ a {
     .btn + .btn {
       margin-top: 1rem;
       margin-left: 0; } }
-
-.page-header {
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
-
-@media screen and (min-width: 64em) {
-  .page-header {
-    padding: 5rem 6rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 4rem; } }
-
-@media screen and (max-width: 42em) {
-  .page-header {
-    padding: 2rem 1rem; } }
 
 .project-name {
   margin-top: 0;
